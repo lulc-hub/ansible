@@ -6,7 +6,7 @@
 # Check if a file was provided
 if [ -z "$1" ]; then
   echo "Error: Please provide a CSV file with usernames"
-  echo "Usage: $0 /path/to/users.csv"
+  echo "Usage: $0 users.csv"
   exit 1
 fi
 
